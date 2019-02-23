@@ -40,12 +40,12 @@ const physToBcmGpioRPi2 = const <int>[
   -1, -1,
 ];
 
-const physI2CPins = <int>[
+const physI2CPins = const <int>[
   3, // I2C SDA
   5, // I2C SCL
 ];
 
-const physSpiPins = <int>[
+const physSpiPins = const <int>[
   19, // SPI0 MOSI
   21, // SPI0 MISO
   23, // SPI0 SCLK
@@ -53,7 +53,7 @@ const physSpiPins = <int>[
   26, // SPI0 CS1
 ];
 
-const physEepromPins = <int>[
+const physEepromPins = const <int>[
   27, // Reserved
   28, // Reserved
 ];
